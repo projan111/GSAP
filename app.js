@@ -44,10 +44,10 @@
 //   }
 // })
 
-gsap.to("#page2 h1", {
+gsap.to("#page3 h1", {
   transform: "translateX(-150%)",
   scrollTrigger: {
-    trigger:"#page2",
+    trigger:"#page3",
     scroller: "body",
     markers: true,
     start: "top 0%",
