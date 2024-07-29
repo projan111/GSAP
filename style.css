@@ -2,5 +2,53 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page2 {
+  height: 100vh;
+  width: 100vw;
+  background: #514a00;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#page3 {
+  height: 100vh;
+  width: 100vw;
+  background: #400000;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  height: 100px;  
+  width: 100px;
+  background: #fff;
+}
+
+h1 {
+  background: yellow;
+  padding: 10px;
+  font-size: 32px;
+}
+
+h2 {
+  background: red;
+  padding: 10px;
+  font-size: 24px;
 }
