@@ -47,12 +47,25 @@
 gsap.to("#page3 h1", {
   transform: "translateX(-150%)",
   scrollTrigger: {
-    trigger:"#page3",
+    trigger: "#page3",
     scroller: "body",
     markers: true,
     start: "top 0%",
-    end:"top -100",
-    pin:true,
-    scrub:2,
-  }
+    end: "top -100",
+    pin: true,
+    scrub: 2,
+  },
+});
+
+gsap.to("#page2 img", {
+  duration: 1,
+  scale: 2,
+  scrollTrigger: {
+    trigger: "#page2",
+    scroller:"body",
+    markers: true,
+    start: "top 60%",
+    end: "top 0%",
+    scrub: true,
+  },
 });

@@ -15,7 +15,7 @@ body {
 }
 
 #page1 {
-  height: 130vh;
+  height: 100vh;
   width: 100vw;
   background: #000;
 }
@@ -30,13 +30,17 @@ body {
 #page2 {
   height: 100vh;
   width: 100vw;
-  background: #000;
+  background: #000;  
+  display: flex;
+  justify-content: center;
 }
 
 #page2 img {
-  height: 100%;
-  width: 100%;
+  height: 550px;
+  width: 700px;
   object-fit: cover;
+  /* border: 1px solid #3a3a3a; */
+
 }
 
 #box {
