@@ -1,6 +1,6 @@
 *{
   padding: 0;
-  margin: 50px;
+  margin: 0px;
   box-sizing: border-box;
   scroll-behavior: smooth;
 
@@ -16,4 +16,52 @@
   height: 200px;
   width: 200px;
   background: skyblue;
+}
+
+.tool1 {
+  height: 200px;
+  width: 200px;
+  background: lightblue;
+}
+
+.tool2 {
+  height: 200px;
+  width: 200px;
+  background: limegreen;
+}
+
+.tool3 {
+  height: 200px;
+  width: 200px;
+  background: pink;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  font-family: sans-serif;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+}
+
+.hero {
+  font-family: sans-serif;
+  background: #000;
+  height: 80vh;
+  margin: 0 100px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  display: flex;
+  height: 100%;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
